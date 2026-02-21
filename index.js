@@ -36,7 +36,7 @@ async function startfamagent() {
 
     //looking for new msg from mom using msg.upsert if yes then read it
     sock.ev.on('messages.upsert', async ({ messages }) => {
-        const momNum = "923212747945@s.whatsapp.net"
+        const momNum = "92xxxxxxxxxx@s.whatsapp.net"
         const msg = messages[0]   // baileys send msgs in form of array so one ata time
         // console.log("upsert event triggered")
         if (!msg.message) return
